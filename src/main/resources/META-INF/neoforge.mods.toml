@@ -1,12 +1,13 @@
 modLoader="javafml"
 loaderVersion="[1,)"
-license="MIT"
+license="GPL-3.0"
 
 [[mods]]
 modId="tacz_mcs2_gunpack_projecte_compat"
 version="1.0.2"
 displayName="TacZ MCS2 GunPack ProjectE Compat"
 authors="Rainbow-SPY"
+logoFile="assets/tacz_projecte_compat/logo.png"
 description='''
 EMC pricing compatibility for ProjectE of the gun pack MCS2 for Timeless and Classics Zero
 对 TaCZ 的 MCS2 枪包 的 等价交换重置版 的 EMC 定价兼容
