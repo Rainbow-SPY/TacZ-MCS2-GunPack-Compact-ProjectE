@@ -1,4 +1,4 @@
-package com.Fishman.tacz_projecte_compat.config;
+package com.Fishman.tacz_mcs2_gunpack_projecte_compat.config;
 
 import java.util.ArrayList;
 import java.util.List;

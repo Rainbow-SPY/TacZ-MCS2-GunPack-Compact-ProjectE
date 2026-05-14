@@ -1,6 +1,6 @@
-package com.Fishman.tacz_projecte_compat.config;
+package com.Fishman.tacz_mcs2_gunpack_projecte_compat.config;
 
-import com.Fishman.tacz_projecte_compat.TaczProjectECompat;
+import com.Fishman.tacz_mcs2_gunpack_projecte_compat.TaczProjectECompat;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.mojang.logging.LogUtils;
@@ -25,7 +25,7 @@ public final class ConfigLoader {
     private static final String CONFIG_FILE_NAME = "guns.json";
 
     // This file must exist in:
-    // src/main/resources/assets/tacz_projecte_compat/default_guns.json
+    // src/main/resources/assets/tacz_mcs2_gunpack_projecte_compat/default_guns.json
     private static final String DEFAULT_RESOURCE_PATH =
             "assets/" + TaczProjectECompat.MODID + "/default_guns.json";
 

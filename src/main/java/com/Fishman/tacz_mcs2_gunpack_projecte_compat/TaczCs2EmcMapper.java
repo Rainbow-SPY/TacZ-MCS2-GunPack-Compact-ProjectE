@@ -1,4 +1,4 @@
-package com.Fishman.tacz_projecte_compat;
+package com.Fishman.tacz_mcs2_gunpack_projecte_compat;
 
 import com.mojang.logging.LogUtils;
 import moze_intel.projecte.api.mapper.EMCMapper;
@@ -19,8 +19,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.CustomData;
 import org.slf4j.Logger;
 
-import com.Fishman.tacz_projecte_compat.config.ConfigLoader;
-import com.Fishman.tacz_projecte_compat.config.GunRuleConfig;
+import com.Fishman.tacz_mcs2_gunpack_projecte_compat.config.ConfigLoader;
+import com.Fishman.tacz_mcs2_gunpack_projecte_compat.config.GunRuleConfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,7 +62,7 @@ public final class TaczCs2EmcMapper implements IEMCMapper<NormalizedSimpleStack,
 
     @Override
     public String getDescription() {
-        return "Assigns ProjectE EMC values to TacZ guns from config/tacz_projecte_compat/guns.json.";
+        return "Assigns ProjectE EMC values to TacZ guns from config/tacz_mcs2_gunpack_projecte_compat/guns.json.";
     }
 
     @Override
