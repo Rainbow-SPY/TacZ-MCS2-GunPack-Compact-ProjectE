@@ -1,6 +1,5 @@
 <div>
-  
-# 对 TaCZ 的 MCS2 枪包 的 等价交换重置版的EMC值定价兼容
+<h1>对 TaCZ 的 MCS2 枪包 的 等价交换重置版的EMC值定价兼容</h1>
 > EMC pricing compatibility for ProjectE of the gun pack MCS2 for Timeless and Classics Zero
   
 <img width="1254" height="1254" alt="ChatGPT Image 2026年5月15日 03_32_47" src="https://github.com/user-attachments/assets/911df9f1-7db2-4f4e-af10-a60d299061ee" />
