@@ -1,8 +1,8 @@
 <div>
 <h1>对 TaCZ 的 MCS2 枪包 的 等价交换重置版的EMC值定价兼容</h1>
-  
+
 > EMC pricing compatibility for ProjectE of the gun pack MCS2 for Timeless and Classics Zero
-  
+
 <img width="1254" height="1254" alt="ChatGPT Image 2026年5月15日 03_32_47" src="https://github.com/user-attachments/assets/911df9f1-7db2-4f4e-af10-a60d299061ee" />
 </div>
 
@@ -10,7 +10,21 @@
 
 > - EMC pricing compatibility for ProjectE of the gun pack [MCS2](https://www.curseforge.com/minecraft/customization/tacz-mcs2-gunpack) for **Timeless and Classics Zero**
 
-- 对 **永恒枪械工坊：零** (Timeless and Classics Zero) 的枪包 **[MCS2](https://www.curseforge.com/minecraft/customization/tacz-mcs2-gunpack)** 的 **等价交换重置版** (ProjectE) 的 **EMC 定价兼容**
+- 对 **永恒枪械工坊：零** (Timeless and Classics Zero) 的枪包 **[MCS2](https://www.curseforge.com/minecraft/customization/tacz-mcs2-gunpack)** 的 **等价交换重置版** (ProjectE) 的 **EMC 定价兼容:**
+
+  | 枪械 / Gun    | 定价 EMC / Price  EMC  |
+  | ------------- | ---------------------- |
+  | AWP           | 1,425,000              |
+  | USP-S         | 200,000                |
+  | Glock-18      | 200,000                |
+  | AK-47         | 1,350,000              |
+  | 鬼魅 ghost    | 500,000                |
+  | 正义  sheriff | 240,000                |
+  | 狂徒 vandal   | 1,450,000              |
+  | 幻影 phantom  | 1,450,000              |
+  | 冥狙 operator | 940,500 (价格后续会调) |
+  | M4A1-S        | 145,000                |
+  | CT/T Knife    | 45141                  |
 
 ## 开发环境 / Develop Environment
 
@@ -38,6 +52,72 @@
 > -- Rainbow SPY
 >
 > May 15, 2026, 02:15 (UTC +8:00)
+
+## Known Issues / 已知问题
+
+**作为0基础的C#开发者我实在无能为力修复这些问题, 我是C#后端的, 不是学java的 :-(**
+
+**使用AI输出所有疑似的问题**
+
+- EMC 匹配依赖精确的 `minecraft:custom_data`。
+
+> EMC matching currently depends on exact `minecraft:custom_data`.
+
+- TacZ 会在运行时动态修改武器 ItemStack, 任意运行时字段变化都可能导致 EMC 失效。
+
+> TacZ dynamically modifies weapon ItemStacks at runtime, Any runtime field change may invalidate EMC mappings.
+
+- ProjectE 会比较完整 `custom_data`，而不是部分字段。即使只改动一个字段，也可能导致 EMC 消失。
+
+> ProjectE compares the full `custom_data` structure instead of partial fields.Even a single changed field can cause EMC to disappear.
+
+- Glock 切换 Burst 模式后 EMC 会失效。切回原模式后 EMC 会恢复。
+
+> EMC disappears after switching Glock to Burst mode.EMC returns after switching Glock back to the original mode.
+
+- 部分 Valorant 枪械(指标配)使用右键运行时逻辑(**右键爆炸开火**)，而不是 FireMode。
+
+> Some Valorant weapons use right-click runtime logic instead of FireMode switching.
+
+- Valorant Classic **标配** 在创造模式中 EMC 正常。拿到手里后 EMC 可能消失。
+
+> Valorant Classic shows correct EMC in Creative mode.Valorant Classic may lose EMC after being held by the player.
+
+- 创造模式中的 `ItemStack` 不一定等于运行时 `ItemStack`。
+
+> Creative inventory `ItemStacks` may differ from runtime `ItemStacks`.
+
+- TacZ 可能在装备、换弹、开火、动画时追加运行时字段。
+
+> TacZ may append runtime fields during equip, reload, firing, or animations.
+
+- EMC 映射对字符串拼写极度敏感。
+
+> EMC mappings are extremely sensitive to exact string spelling.
+
+- 当前实现尚未完成 Canonicalization（规范化）。
+
+> The current implementation does not yet perform canonicalization.
+
+- 理论上只有 GunId、附件、弹药数应该参与 EMC 身份判定。
+
+> Ideally only GunId, attachments, and ammo count should participate in EMC identity matching.
+
+- 当前运行时状态字段仍然参与匹配。
+
+> Runtime state fields are still part of the matching process.
+
+- 当前项目更适合作为 TacZ × ProjectE EMC 的基础框架。
+
+> The current project should be considered a foundation framework for TacZ × ProjectE EMC integration.
+
+- 当前项目属于实验性实现。
+
+> The current implementation is experimental.
+
+- 欢迎后续开发者继续完善 Canonicalization 与 Runtime Filtering。
+
+> Future contributors are welcome to improve canonicalization and runtime filtering.
 
 ## 许可证 / License
 
