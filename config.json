@@ -1,0 +1,303 @@
+{
+    "guns": [
+        {
+            "_itemId": "$All-Guns, 下文不再提供 itemid 值.$",
+            "id": "mcs2:cs_m4a1s_knight",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "ammoEmc": 100,
+            "_countBarrelBullet": "$false, 所有枪械的 countBarrelBullet 都为 false, 在下文不再提供此值, 因为TacZ 只按弹夹内算.$",
+            "_attachmentPrice": "$值恒为0, 在下文不再提供 attachmentPrice 值.$",
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_printstream",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_printstream"
+        },
+        {
+            "id": "mcs2:cs_m4a1s",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer"
+        },
+        {
+            "id": "mcs2:cs_usp_printstream",
+            "OriginalPrice": 200,
+            "Ammo": 12,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:usp_silencer_printstream"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_bule_phosphor",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_bule_phosphor"
+        },
+        {
+            "id": "mcs2:cs_usp_royal_blue",
+            "OriginalPrice": 200,
+            "Ammo": 12,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:usp_silencer_royal_blue"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_hot_rod",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_hot_rod"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_atomic_alloy",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_atomic_alloy"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_chantico_fire",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_chantico_fire"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_emphorosaur_s",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer_emphorosaur_s"
+        },
+        {
+            "id": "mcs2:cs_m4a1s_nitro",
+            "OriginalPrice": 2900,
+            "Ammo": 20,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:m4a1s_silencer"
+        },
+        {
+            "id": "mcs2:cs_ak_vulcan",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_ak_fire_serpent",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_usp_whiteout",
+            "OriginalPrice": 200,
+            "Ammo": 12,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:usp_silencer_whiteout"
+        },
+        {
+            "id": "mcs2:cs_usp_stainless",
+            "OriginalPrice": 200,
+            "Ammo": 12,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": true,
+            "SilencerID": "mcs2:usp_silencer_stainless"
+        },
+        {
+            "id": "valorant:vandal",
+            "OriginalPrice": 2900,
+            "Ammo": 25,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "valorant:phantom",
+            "OriginalPrice": 2900,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "valorant:operator",
+            "OriginalPrice": 4700,
+            "Ammo": 5,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "valorant:sherif",
+            "OriginalPrice": 800,
+            "Ammo": 6,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_dragon_tattoo",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_high_beam",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_reactor",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_candy_apple",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_moonrise",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_glock_bunsen_burner",
+            "OriginalPrice": 200,
+            "Ammo": 20,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_ak_elite_build",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_ak_abyssal_apparition",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_awp_dragon_lore",
+            "OriginalPrice": 4750,
+            "Ammo": 5,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },
+        {
+            "id": "mcs2:cs_ak_asiimov",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },{
+            "id": "mcs2:cs_ak",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },{
+            "id":"mcs2:cs_ak_green_laminate",
+            "OriginalPrice": 2700,
+            "Ammo": 30,
+            "Mode": "AUTO",
+            "scale": 500,
+            "IsHasSilencer": false
+        },{
+            "id":"valorant:classic",
+            "OriginalPrice": 114514,
+            "Ammo": 12,
+            "Mode": "SEMI",
+            "scale": 1,
+            "IsHasSilencer": false
+        },{
+            "id":"valorant:ghost",
+            "OriginalPrice": 500,
+            "Ammo": 15,
+            "Mode": "SEMI",
+            "scale": 1000,
+            "IsHasSilencer": false
+        },{
+            "id":"mcs2:t_knife",
+            "OriginalPrice": 14514,
+            "Ammo": null,
+            "Mode": "SEMI",
+            "scale": 1,
+            "IsHasSilencer": false
+        },{
+            "id":"mcs2:ct_knife",
+            "OriginalPrice": 14514,
+            "Ammo": null,
+            "Mode": "SEMI",
+            "scale": 1,
+            "IsHasSilencer": false
+        }
+    ]
+}

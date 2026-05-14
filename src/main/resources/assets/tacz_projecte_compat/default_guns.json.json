@@ -1,0 +1,526 @@
+{
+  "guns": [
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_knight",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_printstream",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_printstream"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_usp_printstream",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 12,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:usp_silencer_printstream"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_bule_phosphor",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_bule_phosphor"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_usp_royal_blue",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 12,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:usp_silencer_royal_blue"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_hot_rod",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_hot_rod"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_atomic_alloy",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_atomic_alloy"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_chantico_fire",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_chantico_fire"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_emphorosaur_s",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer_emphorosaur_s"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_m4a1s_nitro",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:m4a1s_silencer"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_vulcan",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_fire_serpent",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_usp_whiteout",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 12,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:usp_silencer_whiteout"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_usp_stainless",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 12,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": [
+        {
+          "slotName": "AttachmentMUZZLE",
+          "attachmentItemId": "tacz:attachment",
+          "attachmentId": "mcs2:usp_silencer_stainless"
+        }
+      ]
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:vandal",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 25,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:phantom",
+      "basePrice": 2900,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:operator",
+      "basePrice": 4700,
+      "weaponScale": 200,
+      "ammoEmc": 100,
+      "maxAmmo": 5,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:sherif",
+      "basePrice": 800,
+      "weaponScale": 300,
+      "ammoEmc": 100,
+      "maxAmmo": 6,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_dragon_tattoo",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_high_beam",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_reactor",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_candy_apple",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_moonrise",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_glock_bunsen_burner",
+      "basePrice": 200,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 20,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_elite_build",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_abyssal_apparition",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_awp_dragon_lore",
+      "basePrice": 4750,
+      "weaponScale": 300,
+      "ammoEmc": 100,
+      "maxAmmo": 5,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun", 
+      "gunId": "mcs2:cs_awp_fade", 
+      "basePrice": 4750, 
+      "weaponScale": 300, 
+      "ammoEmc": 100, 
+      "maxAmmo": 5, 
+      "countBarrelBullet": false, 
+      "attachmentsPrice": 0, 
+      "fireMode": "SEMI", 
+      "attachments": []
+    }, 
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_asiimov",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:cs_ak_green_laminate",
+      "basePrice": 2700,
+      "weaponScale": 500,
+      "ammoEmc": 100,
+      "maxAmmo": 30,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "AUTO",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:classic",
+      "basePrice": 114514,
+      "weaponScale": 1,
+      "ammoEmc": 100,
+      "maxAmmo": 12,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "valorant:ghost",
+      "basePrice": 500,
+      "weaponScale": 1000,
+      "ammoEmc": 100,
+      "maxAmmo": 15,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:t_knife",
+      "basePrice": 45141,
+      "weaponScale": 1,
+      "ammoEmc": null,
+      "maxAmmo": null,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    },
+    {
+      "itemId": "tacz:modern_kinetic_gun",
+      "gunId": "mcs2:ct_knife",
+      "basePrice": 45141,
+      "weaponScale": 1,
+      "ammoEmc": null,
+      "maxAmmo": null,
+      "countBarrelBullet": false,
+      "attachmentsPrice": 0,
+      "fireMode": "SEMI",
+      "attachments": []
+    }
+  ]
+}

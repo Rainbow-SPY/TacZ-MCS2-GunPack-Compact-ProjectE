@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="tacz_projecte_compat"
+version="1.0.1"
+displayName="TacZ ProjectE Compat"
+authors="Rainbow-SPY"
+description='''
+Adds ProjectE EMC mappings for TacZ guns.
+对 TacZ 模组的 CS2 枪包添加 ProjectE 的 EMC 值.
+'''
+
+[[dependencies.tacz_projecte_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tacz_projecte_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tacz_projecte_compat]]
+modId="projecte"
+type="required"
+versionRange="[1.1.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tacz_projecte_compat]]
+modId="tacz"
+type="required"
+versionRange="[1.1.8,)"
+ordering="AFTER"
+side="BOTH"
